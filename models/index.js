@@ -1,7 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-
-
+const userModel = require('./users');
 
 exports.db_config = new Sequelize(
     'bitespeed',
@@ -25,3 +24,6 @@ exports.db_config = new Sequelize(
         logging: false,
       }
   );
+
+  exports.userModel = userModel(exports.db_config);
+  
