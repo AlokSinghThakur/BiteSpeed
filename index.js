@@ -5,6 +5,9 @@ app.use(express.json());
 
 const models = require('./models')
 
+const IDENTITY_ROUTES = require('./routes')
+
+app.use('/',IDENTITY_ROUTES)
 
 models.db_config
     .sync({
