@@ -48,6 +48,18 @@ For example : https://bitespeed-b4op.onrender.com/identify
 	"phoneNumber": "123456"
 }
 ```
+you'll get output as: 
+
+```javascript
+	{
+		"contact":{
+			"primaryContatctId": 1,
+			"emails": ["mcfly@hillvalley.edu"]
+			"phoneNumbers": ["123456"]
+			"secondaryContactIds": []
+		}
+	}
+```
 
 ## Author
 
