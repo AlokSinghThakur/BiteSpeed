@@ -10,6 +10,8 @@
 </p>
 
 > This repository contains the code for a short assignment that I completed for the Backend Developer position at BiteSpeed. The assignment consists of a simple RESTful API se HTTP POST method. The API is implemented using Node.js, Express.js, and MySQL.
+><br>
+> Please email aloksinghthakurcse@gmail.com if you find any bugs.
 
 
 
