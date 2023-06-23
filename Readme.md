@@ -25,7 +25,7 @@ npm install
 npm run start
 ```
 
-You can access web service with an endpoint /identify that will receive HTTP POST requests with JSON body of the following format:
+You can access web service with an endpoint ### [/identify] that will receive HTTP POST requests with JSON body of the following format:
 
 ```sh
 {
