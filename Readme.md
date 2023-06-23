@@ -11,8 +11,6 @@
 
 > Bitespeed Backend Task: Identity Reconciliation 
 
-### 🏠 [Homepage](https://bitespeed-b4op.onrender.com)
-
 ### ✨ [Demo](https://bitespeed-b4op.onrender.com)
 
 ## Install
