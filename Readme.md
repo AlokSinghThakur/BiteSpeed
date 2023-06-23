@@ -9,7 +9,9 @@
   </a>
 </p>
 
-> Bitespeed Backend Task: Identity Reconciliation 
+> This repository contains the code for a short assignment that I completed for the Backend Developer position at BiteSpeed. The assignment consists of a simple RESTful API se HTTP POST method. The API is implemented using Node.js, Express.js, and MySQL.
+
+
 
 ### ✨ [Live Link] https://bitespeed-b4op.onrender.com
 
