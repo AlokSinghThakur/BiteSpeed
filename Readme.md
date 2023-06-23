@@ -25,10 +25,13 @@ npm install
 npm run start
 ```
 
-## Run tests
+You can access web service with an endpoint /identify that will receive HTTP POST requests with JSON body of the following format:
 
 ```sh
-npm run test
+{
+	"email"?: string,
+	"phoneNumber"?: number
+}
 ```
 
 ## Author
