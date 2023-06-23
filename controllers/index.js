@@ -61,7 +61,7 @@ module.exports = {
 			"secondaryContactIds": outputId// Array of all Contact IDs that are "secondary" to the primary contact
 		}
             
-            return res.status(200).send({ code: 200, status: 'success', data: decorative });
+            return res.status(200).send({contacts: decorative });
 
         }catch (err) {
             return res.status(422).send({ code: 422, status: "failed", msg: err.message });
