@@ -31,7 +31,7 @@ npm install
 npm run start
 ```
 
-You can access web service with an endpoint <a><strong>/identify</strong></a> that will receive HTTP POST requests with JSON body of the following format:
+You can access web service with an endpoint <a><strong>/identity</strong></a> that will receive HTTP POST requests with JSON body of the following format:
 
 ```sh
 {
@@ -40,7 +40,7 @@ You can access web service with an endpoint <a><strong>/identify</strong></a> th
 }
 ```
 
-For example : https://bitespeed-b4op.onrender.com/identify
+For example : https://bitespeed-b4op.onrender.com/identity
 
 ```javascript
 {
