@@ -18,19 +18,6 @@
 ### ✨ [Live Link] 
 This first iteration will have URIs prefixed with https://bitespeed-b4op.onrender.com and is structured as described below
 
-
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm run start
-```
-
 You can access web service with an endpoint <a><strong>/identify</strong></a> that will receive HTTP POST requests with JSON body of the following format:
 
 ```sh
@@ -61,7 +48,7 @@ you'll get output as:
 	}
 ```
 
-
+# Overview
 The Designed APIs keeps track of a customer's identity across multiple purchases using email and phonenumber for Bitespeed.It keeps track of the collected contact information in a relational database table named Contact.
 {
 	id                   Int                   
@@ -74,12 +61,12 @@ The Designed APIs keeps track of a customer's identity across multiple purchases
   deletedAt            DateTime?
 }
 
-1) The service will create a new Contact row with linkPrecedence=”primary" treating it as a new customer and return it with an empty array for secondaryContactIds
-In case of no existing contacts agains an incoming request 
+# Features
+1) if there are no existing contacts against an incoming request
+The service will simply create a new `Contact` row with `linkPrecedence=”primary"` treating it as a new customer and return it with an empty array for `secondaryContactIds`
+   
+2) If an incoming request has either of phoneNumber or email common to an existing contact but contains new information, the service will create a “secondary” Contact row.
 
-2) The service will simply create a new Contact row with linkPrecedence=”primary" treating it as a new customer and return it with an empty array for secondaryContactIds
-
-3) Primary contacts can turn into seconday contacts on requesting api with exsting email id with existing phone number of different id, the existing email id becomes secondary contact.
 
 
 ### Tech Stack Used 
