@@ -42,7 +42,7 @@ npm run test
 
 ## Link to Resume
 
-* Website: (https://drive.google.com/file/d/18B3W578hAULk6i8HhgtOuptxt0AunP-T/view?usp=drive_link)
+* Drive Link : (https://drive.google.com/file/d/18B3W578hAULk6i8HhgtOuptxt0AunP-T/view?usp=drive_link)
 
 ## Show your support
 
