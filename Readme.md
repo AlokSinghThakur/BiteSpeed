@@ -61,6 +61,32 @@ you'll get output as:
 	}
 ```
 
+
+The Designed APIs keeps track of a customer's identity across multiple purchases using email and phonenumber for Bitespeed.It keeps track of the collected contact information in a relational database table named Contact.
+{
+	id                   Int                   
+  phoneNumber          String?
+  email                String?
+  linkedId             Int? // the ID of another Contact linked to this one
+  linkPrecedence       "secondary"|"primary" // "primary" if it's the first Contact in the link
+  createdAt            DateTime              
+  updatedAt            DateTime              
+  deletedAt            DateTime?
+}
+
+1) The service will create a new Contact row with linkPrecedence=”primary" treating it as a new customer and return it with an empty array for secondaryContactIds
+In case of no existing contacts agains an incoming request 
+
+2) The service will simply create a new Contact row with linkPrecedence=”primary" treating it as a new customer and return it with an empty array for secondaryContactIds
+
+3) Primary contacts can turn into seconday contacts on requesting api with exsting email id with existing phone number of different id, the existing email id becomes secondary contact.
+
+
+### Tech Stack Used 
+Database : MySQL.
+Backend Framework : Nodejs, Expressjs.
+ORM: Sequelize.
+
 ## Author
 
 👤 **Alok Singh Thakur**
