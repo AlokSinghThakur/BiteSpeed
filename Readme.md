@@ -40,6 +40,15 @@ You can access web service with an endpoint <a><strong>/identify</strong></a> th
 }
 ```
 
+For example : https://bitespeed-b4op.onrender.com/identify
+
+```javascript
+{
+	"email": "mcfly@hillvalley.edu",
+	"phoneNumber": "123456"
+}
+```
+
 ## Author
 
 👤 **Alok Singh Thakur**
