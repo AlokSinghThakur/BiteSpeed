@@ -1,7 +1,7 @@
 const identityQueries = require('../queries')
 
 module.exports = {
-    async createIdentity(req,res){
+    async createIdentify(req,res){
         let phoneNumber = req.body.phoneNumber
             let email = req.body.email
             let linkedId = null
