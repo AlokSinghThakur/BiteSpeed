@@ -40,6 +40,10 @@ npm run test
 * Github: [@AlokSinghThakur](https://github.com/AlokSinghThakur)
 * LinkedIn: [@aloksinghthakur](https://linkedin.com/in/aloksinghthakur)
 
+## Link to Resume
+
+* Website: (https://drive.google.com/file/d/18B3W578hAULk6i8HhgtOuptxt0AunP-T/view?usp=drive_link)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
