@@ -3,10 +3,11 @@ const { Sequelize } = require('sequelize');
 const userModel = require('./users');
 
 exports.db_config = new Sequelize(
-    'sql12627238',
-    'sql12627238',
-    'ZGrXUV1rzY',
-  
+
+    'sql12628137',
+    'sql12628137',
+    'Sf1yTke6gp',
+      
         // 'wysa',
         // 'dummy',
         // 'root',
