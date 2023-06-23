@@ -8,6 +8,9 @@ const models = require('./models')
 const IDENTITY_ROUTES = require('./routes')
 
 app.use('/',IDENTITY_ROUTES)
+app.use("*", (req, res, next) => {
+    res.status(404).send({ code: 404, status: 'failed', msg: "Make sure url is correct!!!" });
+});
 
 models.db_config
     .sync({
