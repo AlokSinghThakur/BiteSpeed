@@ -15,7 +15,9 @@
 
 
 
-### ✨ [Live Link] https://bitespeed-b4op.onrender.com
+### ✨ [Live Link] 
+This first iteration will have URIs prefixed with https://bitespeed-b4op.onrender.com and is structured as described below
+
 
 ## Install
 
