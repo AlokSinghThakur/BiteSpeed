@@ -48,7 +48,7 @@ you'll get output as:
 	}
 ```
 
-# Overview
+## Overview
 The Designed APIs keeps track of a customer's identity across multiple purchases using email and phonenumber for Bitespeed.It keeps track of the collected contact information in a relational database table named Contact.
 {
 	id                   Int                   
@@ -61,7 +61,7 @@ The Designed APIs keeps track of a customer's identity across multiple purchases
   deletedAt            DateTime?
 }
 
-# Features
+## Features
 1) if there are no existing contacts against an incoming request
 The service will simply create a new `Contact` row with `linkPrecedence=”primary"` treating it as a new customer and return it with an empty array for `secondaryContactIds`
    
