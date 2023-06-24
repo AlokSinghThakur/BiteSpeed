@@ -70,9 +70,9 @@ The service will simply create a new `Contact` row with `linkPrecedence=”prima
 
 
 ### Tech Stack Used 
-Database : MySQL.
-Backend Framework : Nodejs, Expressjs.
-ORM: Sequelize.
+Database : MySQL.<br>
+Backend Framework : Nodejs, Expressjs.<br>
+ORM: Sequelize.<br>
 
 ## Author
 
