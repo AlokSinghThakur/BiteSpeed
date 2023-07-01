@@ -4,9 +4,9 @@ const userModel = require('./users');
 
 exports.db_config = new Sequelize(
 
-    'sql12628137',
-    'sql12628137',
-    'Sf1yTke6gp',
+    'wysa_db',
+    'admin',
+    'Alok12345',
       
         // 'wysa',
         // 'dummy',
