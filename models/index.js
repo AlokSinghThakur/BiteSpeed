@@ -15,7 +15,7 @@ exports.db_config = new Sequelize(
         // 'password',
         // 'password',
         {
-          host:  'sql12.freemysqlhosting.net',
+          host:  'wysa.c0ijlrirubo2.eu-west-1.rds.amazonaws.com',
           // host :'localhost',
           dialect: 'mysql',
           operatorsAliases: 0,
