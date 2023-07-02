@@ -26,6 +26,6 @@ models.db_config
     });
 
 
-app.listen(6000, () => {
+app.listen(6001, () => {
     console.log('Server is running on http://localhost:6000')
 })
